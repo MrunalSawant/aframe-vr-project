@@ -60,6 +60,15 @@ class Video extends React.Component {
                     </video>
                 </a-assets>
                 <a-videosphere rotation="0 -90 0" src="#video" play-on-click>
+                    <a-image
+                        class="cursor-listener"
+                        src="url(./Info_icon.png)"
+                        id="video"
+                        cursor="fuse: true; "
+                        height="1"
+                        width="1"
+                        position="0 0 -5"
+                    ></a-image>
                 </a-videosphere>
 
                 <a-camera>
