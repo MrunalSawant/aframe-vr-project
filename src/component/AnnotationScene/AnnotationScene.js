@@ -28,6 +28,10 @@ function AnnotationScene() {
 
         document.querySelector("a-scene").addEventListener("exit-vr", function () {
             isVrModeOn.current = false;
+            var el = document.getElementById("a-cursor");
+            if (el) {
+                document.querySelector("a-camera").removeChild(el);
+            }
         });
 
         //cursor-listener

@@ -14,7 +14,7 @@ import Navigation from './component/UI/Navigation';
 
 function App() {
   return (
-    <div className="frame">
+    <div className="App">
       <BrowserRouter>
         <Routes>
           <Route index element={<AnnotationScene />} />
