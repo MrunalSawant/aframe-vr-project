@@ -10,7 +10,7 @@ export default function BasicCard(props) {
     return (
         <div>
             {props.open ?
-                <Card sx={{ maxWidth: 275, position: "absolute", zIndex: 10, margin: "10px", top: "20%", left: "60%" }} >
+                <Card sx={{ maxWidth: 275, position: "absolute", zIndex: 1000, margin: "10px", top: "20%", left: "60%" }} >
                     <CardContent>
                         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                             <Typography variant="h5" component="div">

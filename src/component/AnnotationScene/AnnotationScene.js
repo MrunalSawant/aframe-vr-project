@@ -35,7 +35,7 @@ function AnnotationScene() {
             AFRAME.registerComponent('cursor-listener', {
                 init: function () {
                     this.el.addEventListener('mousedown', (e) => {
-                        console.log(process.env.PUBLIC_URL);
+
                         if (dataMap.has(e.target.id)) {
                             setOpen(true);
                             setTitle(e.target.id);
@@ -134,8 +134,6 @@ function AnnotationScene() {
             </a-scene>
         </div >
     )
-
 }
-
 
 export default AnnotationScene;
