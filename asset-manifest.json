@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/aframe-vr-project/static/css/main.5c653f8c.css",
-    "main.js": "/aframe-vr-project/static/js/main.073f15ba.js",
+    "main.css": "/aframe-vr-project/static/css/main.9d003072.css",
+    "main.js": "/aframe-vr-project/static/js/main.817c1edb.js",
     "static/js/787.7a2b3649.chunk.js": "/aframe-vr-project/static/js/787.7a2b3649.chunk.js",
     "index.html": "/aframe-vr-project/index.html",
-    "main.5c653f8c.css.map": "/aframe-vr-project/static/css/main.5c653f8c.css.map",
-    "main.073f15ba.js.map": "/aframe-vr-project/static/js/main.073f15ba.js.map",
+    "main.9d003072.css.map": "/aframe-vr-project/static/css/main.9d003072.css.map",
+    "main.817c1edb.js.map": "/aframe-vr-project/static/js/main.817c1edb.js.map",
     "787.7a2b3649.chunk.js.map": "/aframe-vr-project/static/js/787.7a2b3649.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c653f8c.css",
-    "static/js/main.073f15ba.js"
+    "static/css/main.9d003072.css",
+    "static/js/main.817c1edb.js"
   ]
 }
