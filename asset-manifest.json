@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/aframe-vr-project/static/css/main.9ae66ebc.css",
-    "main.js": "/aframe-vr-project/static/js/main.0fe54d1e.js",
-    "static/js/787.7a2b3649.chunk.js": "/aframe-vr-project/static/js/787.7a2b3649.chunk.js",
-    "index.html": "/aframe-vr-project/index.html",
-    "main.9ae66ebc.css.map": "/aframe-vr-project/static/css/main.9ae66ebc.css.map",
-    "main.0fe54d1e.js.map": "/aframe-vr-project/static/js/main.0fe54d1e.js.map",
-    "787.7a2b3649.chunk.js.map": "/aframe-vr-project/static/js/787.7a2b3649.chunk.js.map"
+    "main.css": "/static/css/main.9ae66ebc.css",
+    "main.js": "/static/js/main.e419296b.js",
+    "static/js/787.7a2b3649.chunk.js": "/static/js/787.7a2b3649.chunk.js",
+    "index.html": "/index.html",
+    "main.9ae66ebc.css.map": "/static/css/main.9ae66ebc.css.map",
+    "main.e419296b.js.map": "/static/js/main.e419296b.js.map",
+    "787.7a2b3649.chunk.js.map": "/static/js/787.7a2b3649.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ae66ebc.css",
-    "static/js/main.0fe54d1e.js"
+    "static/js/main.e419296b.js"
   ]
 }
