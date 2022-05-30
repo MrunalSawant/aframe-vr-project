@@ -15,7 +15,7 @@ import Navigation from './component/UI/Navigation';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="aframe-vr-project">
         <Routes>
           <Route index element={<AnnotationScene />} />
           <Route path="annotation" element={<AnnotationScene />} />
