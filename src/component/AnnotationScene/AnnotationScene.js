@@ -75,7 +75,7 @@ function AnnotationScene() {
                 <a-assets>
                     <img id="sky" src="background.jpg" alt=""></img>
                 </a-assets>
-                <a-sky src="#sky"></a-sky>
+                <a-sky src="#sky" rotation="0 10 0"></a-sky>
                 <a-light type="directional" position="0 30 10" rotation="-90 0 0" target="#directionaltarget" intensity="1.0">
                     <a-entity id="directionaltarget" position="0 20 -10"></a-entity>
                 </a-light>
@@ -92,8 +92,8 @@ function AnnotationScene() {
                     class="cursor-listener"
                     cursor-listener
                     src="url(./1.png)"
-                    height="0.25"
-                    width="0.25"
+                    height="0.2"
+                    width="0.2"
                     position="0 3.2 -3.7"
                 ></a-image>
                 <a-image
@@ -101,8 +101,8 @@ function AnnotationScene() {
                     class="cursor-listener"
                     cursor-listener
                     src="url(./2.png)"
-                    height="0.25"
-                    width="0.25"
+                    height="0.2"
+                    width="0.2"
                     position="0.6 1.5 -3.9"
                 ></a-image>
                 <a-image
@@ -134,7 +134,7 @@ function AnnotationScene() {
                     opacity="0"
                     position="1.35 2.45 -1.999"
                 ></a-image>
-
+                <meta name="apple-mobile-web-app-capable" content="yes"></meta>
             </a-scene>
         </div >
     )

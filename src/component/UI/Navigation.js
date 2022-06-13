@@ -9,11 +9,11 @@ function Navigation() {
         <div style={{ bottom: "20px", left: 0, right: 0, position: 'absolute' }}>
             <Grid container spacing={1} justifyContent="center" alignItems="flex-end">
                 <Grid item>
-                    <IconButton component={Link} to="/" size="large"   >
-                        <ArrowCircleLeftRoundedIcon></ArrowCircleLeftRoundedIcon>
+                    <IconButton component={Link} to="/" size="large" >
+                        <ArrowCircleLeftRoundedIcon style={{ height: '50px', width: '50px' }}></ArrowCircleLeftRoundedIcon>
                     </IconButton>
                     <IconButton component={Link} to="/video" size="large" >
-                        <ArrowCircleRightRoundedIcon></ArrowCircleRightRoundedIcon>
+                        <ArrowCircleRightRoundedIcon style={{ height: '50px', width: '50px' }}></ArrowCircleRightRoundedIcon>
                     </IconButton>
                 </Grid>
             </Grid>

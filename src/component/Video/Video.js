@@ -121,7 +121,6 @@ function Video() {
                         src="video360.mp4">
                     </video>
                 </a-assets>
-
                 <a-image
                     class="cursor-listener2"
                     cursor-listener2
@@ -154,6 +153,7 @@ function Video() {
                     cursor="fuse: true; rayOrigin: mouse; "
                     raycaster="objects: .cursor-listener2"
                 ></a-entity>
+                <meta name="apple-mobile-web-app-capable" content="yes"></meta>
                 <a-videosphere rotation="0 -90 0" src="#video" play-on-click>
                 </a-videosphere>
                 <a-camera>
